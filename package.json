@@ -16,8 +16,10 @@
     "schema": "db/schema.prisma"
   },
   "prettier": {
-    "semi": false,
-    "printWidth": 100
+    "singleQuote": true,
+    "trailingComma": "none",
+    "jsxSingleQuote": true,
+    "jsxBracketSameLine": true
   },
   "husky": {
     "hooks": {
