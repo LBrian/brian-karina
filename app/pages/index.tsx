@@ -3,8 +3,9 @@ import Layout from 'app/layouts/Layout';
 
 const Home: BlitzPage = () => {
   return (
-    <div className='text-9xl font-caveat text-white text-center mt-20'>
-      Brian &amp; Karina
+    <div className='font-caveat text-center mt-20'>
+      <div className='text-6xl md:text-9xl text-center'>Brian &amp; Karina</div>
+      <div className='text-3xl md:text-5xl'>Coming soon...</div>
     </div>
   );
 };
