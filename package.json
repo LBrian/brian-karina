@@ -2,9 +2,10 @@
   "name": "brian-karina",
   "version": "1.0.0",
   "scripts": {
-    "start": "blitz start",
+    "dev": "blitz start",
+    "start": "blitz start --production",
     "studio": "blitz prisma studio",
-    "build": "blitz build",
+    "build": "yarn --frozen-lockfile --prod=false && blitz build",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "test": "jest",
     "test:watch": "jest --watch"
